@@ -48,6 +48,12 @@ scale="0.001 0.001 0.001">
 
 <!-- OBJETO 2 (ROBOT) -->
 
+<a-assets timeout="10000">
+<!-- Registra tu modelo 3D y le pone el id "" para poder referenciarlo abajo.
+         timeout="10000" = espera hasta 10 segundos a que cargue antes de rendirse -->
+<a-asset-item id="robot" src="robot.glb"></a-asset-item>
+</a-assets>
+ 
 <a-entity
 gltf-model="#robot"
 animation-mixer="clip: *; loop: repeat"
@@ -60,6 +66,13 @@ scale="1 1 1">
 
 
  <!-- OBJETO 3 (SONIC) --> 
+
+<a-assets timeout="10000">
+<!-- Registra tu modelo 3D y le pone el id "" para poder referenciarlo abajo.
+         timeout="10000" = espera hasta 10 segundos a que cargue antes de rendirse -->
+<a-asset-item id="sonic" src="sonic.glb"></a-asset-item>
+</a-assets>
+ 
 <a-entity
 gltf-model="#sonic"
 animation-mixer="clip: *; loop: repeat"
@@ -72,6 +85,13 @@ scale="1 1 1">
 
 
 <!-- OBJETO 4 (DRAGON) -->
+
+<a-assets timeout="10000">
+<!-- Registra tu modelo 3D y le pone el id "vivi_ornit" para poder referenciarlo abajo.
+         timeout="10000" = espera hasta 10 segundos a que cargue antes de rendirse -->
+<a-asset-item id="red_dragon" src="red_dragon.glb"></a-asset-item>
+</a-assets>
+ 
 <a-entity
 gltf-model="#red_dragon"
 animation-mixer="clip: *; loop: repeat"
